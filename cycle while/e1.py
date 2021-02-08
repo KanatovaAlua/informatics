@@ -1,5 +1,7 @@
 x=int(input())
-i=2
-while x%i!=0:
+c=2
+i=1
+while c<=x:
+    c*=2
     i+=1
 print(i)
